@@ -8,11 +8,6 @@ CryptoBuddy is a small, friendly rule-based chatbot that recommends cryptocurren
 - `README.md` — this file
 - `requirements.txt` — required packages (optional)
 
-## Run locally
-1. (Optional) create venv: `python -m venv venv && source venv/bin/activate` (Windows: `venv\Scripts\activate`)
-2. Install deps (if using optional features): `pip install -r requirements.txt`
-3. Run: `python cryptobuddy.py`
-
 ## How this works
 - Keyword matching interprets user intent.
 - Simple scoring (trend, market cap, sustainability) ranks coins for profitability.
